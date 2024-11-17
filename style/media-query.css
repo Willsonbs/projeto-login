@@ -2,6 +2,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
+    
+
     section#login {
         width: 70vw;
     }
@@ -20,10 +22,7 @@
 
 @media screen and (min-width: 992px) {
     
-    body {
-        background: url(/assets/pexels-nature.jpg);
-        background-size: cover;
-    }
+    
     
     section#login {
         width: 70vw;
