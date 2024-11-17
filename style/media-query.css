@@ -22,7 +22,11 @@
 
 @media screen and (min-width: 992px) {
     
-    
+    body {
+        background: url(/assets/pexels-nature.jpg);
+        background-size: cover;
+        
+    }
     
     section#login {
         width: 70vw;
