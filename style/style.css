@@ -41,16 +41,22 @@ section#login {
 
 div#imagem {
     display: block;
-    background: url(/assets/pexels-croc.jpg) no-repeat;
-    background-size: cover;
     height: 200px;
-    
+    overflow: hidden; /* Garante que partes fora da div sejam cortadas */
+}
 
+div#imagem img {
+    width: 100%; /* Faz a imagem ocupar toda a largura */
+    height: 100%; /* Faz a imagem ocupar toda a altura */
+    object-fit: cover; /* Garante que a imagem mantenha a proporção e preencha a área */
+    display: block; /* Remove qualquer espaço adicional ao redor da imagem */
+    object-position: top right;
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
+    
 
 }
 
