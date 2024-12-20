@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    
+
+    section#login {
+        width: 70vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    body {
+        background: url(/assets/pexels-nature.jpg);
+        background-size: cover;
+        
+    }
+    
+    section#login {
+        width: 70vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 60%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+}
